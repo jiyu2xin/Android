@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/activity_bg_gray"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_head" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <EditText
+            android:id="@+id/activity_advice_feedback_et"
+            android:layout_width="fill_parent"
+            android:layout_height="200dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/view_edit_item_feedback"
+            android:hint="你的意见是我最大的动力，谢谢！"
+            android:gravity="top"
+            android:inputType="text"
+            android:singleLine="false"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/activity_advice_feedback_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/activity_advice_feedback_et"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/view_edit_item_feedback_button"
+            android:text="发表"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</LinearLayout>

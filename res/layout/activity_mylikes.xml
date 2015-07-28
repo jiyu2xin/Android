@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_head" />
+
+    <ScrollView
+        android:id="@+id/activity_mylikes_item_scrollView"
+        android:layout_width="match_parent"
+        android:background="@color/bg_gray"
+        android:layout_height="match_parent" >
+
+        <com.xiaoqf.customview.CustomListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:footerDividersEnabled="false"
+            android:cacheColorHint="@color/bg_gray"
+            android:listSelector="@color/transparent"
+            android:scrollbars="none" >
+        </com.xiaoqf.customview.CustomListView>
+    </ScrollView>
+
+</LinearLayout>

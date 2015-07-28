@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/activity_bg_gray" >
+    
+    <include layout="@layout/activity_head"/>
+    
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="72dip"
+        android:orientation="vertical"
+        android:background="@drawable/view_item_bg_no_padding" >
+
+        <TableRow
+            android:id="@+id/activity_book_payed_tableRow_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="64dip"
+	        android:layout_marginTop="10dip"
+	        android:layout_marginBottom="10dip"
+	        android:gravity="center" >
+
+            <ImageView
+                android:layout_gravity="right|center_vertical"
+                android:src="@drawable/book_payed"
+                android:layout_weight="4" />
+            
+            <TextView
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="恭喜您，订金支付成功！"
+                android:textSize="16sp"
+                android:singleLine="true" />
+
+        </TableRow>
+        
+        <View
+	        android:layout_width="match_parent"
+	        android:layout_height="0.5dp"
+	        android:background="@color/separator" />
+
+        <TableRow
+            android:id="@+id/activity_book_payed_tableRow_amount"
+            android:layout_width="fill_parent"
+            android:layout_height="64dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+	        android:layout_marginTop="10dip"
+	        android:layout_marginBottom="5dip"
+	        android:gravity="center" >
+            
+            <TextView
+                android:layout_weight="3"
+                android:gravity="right|center_vertical"
+                android:text="支付金额"
+                android:textSize="12sp"
+                android:singleLine="true" />
+            <TextView
+                android:id="@+id/activity_book_payed_tv_amount"
+                android:layout_weight="2"
+                android:gravity="right|center_vertical"
+                android:singleLine="true"
+                android:text="5000"
+                android:textSize="36sp"
+                android:textScaleX="1.1"
+                android:textColor="@color/yellow" />
+            <TextView
+                android:layout_weight="2"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginTop="5dip"
+                android:singleLine="true"
+                android:text="元"
+                android:textSize="12sp"
+                android:textColor="@color/yellow" />
+            
+        </TableRow>
+
+        <View
+	        android:layout_width="match_parent"
+	        android:layout_height="0.5dp"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+	        android:background="@color/separator" />
+        
+        <TableRow
+            android:id="@+id/activity_book_payed_tableRow_order_no"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_height="64dip"
+	        android:layout_marginTop="10dip"
+	        android:layout_marginBottom="5dip"
+	        android:gravity="center" >
+            
+            <TextView
+                android:layout_weight="3"
+                android:layout_marginRight="6dip"
+                android:gravity="right|center_vertical"
+                android:text="订单号"
+                android:textSize="12sp"
+                android:singleLine="true" />
+            <TextView
+                android:id="@+id/activity_book_payed_tv_order_no"
+                android:layout_weight="4"
+                android:layout_marginRight="10dip"
+                android:gravity="right|center_vertical"
+                android:singleLine="true"
+                android:text="605276789908049920"
+                android:textSize="12sp"
+                android:textScaleX="1.1"
+                android:textColor="@color/black" />
+            
+        </TableRow>
+       <!--  <TableRow
+            android:id="@+id/activity_book_payed_tableRow_order_time"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_height="64dip"
+	        android:layout_marginTop="5dip"
+	        android:layout_marginBottom="10dip"
+	        android:gravity="center" >
+            
+            <TextView
+                android:layout_weight="3"
+                android:layout_marginRight="6dip"
+                android:gravity="right|center_vertical"
+                android:text="创建日期"
+                android:textSize="12sp"
+                android:singleLine="true" />
+            <TextView
+            	android:id="@+id/activity_book_payed_tv_order_time"
+                android:layout_weight="4"
+                android:layout_marginRight="10dip"
+                android:gravity="right|center_vertical"
+                android:singleLine="true"
+                android:text="2015-6-12 15:20"
+                android:textSize="12sp"
+                android:textScaleX="1.1"
+                android:textColor="@color/black" />
+            
+        </TableRow> -->
+    </TableLayout>
+        
+    <LinearLayout
+        android:id="@+id/activity_book_payed_button_wechat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:orientation="vertical"
+        android:gravity="center"
+    	android:background="@drawable/view_bottom_button_bg" >
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dip"
+	        android:gravity="center"
+	        android:singleLine="true"
+	        android:text="邀请微信好友帮我Q价"
+	        android:textColor="@color/white"
+	        android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>
