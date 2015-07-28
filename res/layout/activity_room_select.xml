@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >
+	
+    <!-- 标题栏 -->
+	<include layout="@layout/activity_head" />
+	
+	<ScrollView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="1"
+	    android:scrollbars="none" >
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="vertical">
+		    
+		<!-- 楼盘图片 -->
+		<ImageView
+		    android:id="@+id/activity_roomselect_iv"
+		    android:layout_width="fill_parent"
+		    android:layout_height="202dip"
+		    android:scaleType="fitXY"/>
+		
+		<!-- 购房流程提示 -->
+		<LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:layout_marginTop="4dip"
+            android:gravity="center"
+            android:orientation="horizontal" >
+			<TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="想要全程最低价，" />
+			<TextView
+			    android:id="@+id/activity_room_select_flow_guide"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="马上查看小Q购房详情流程 >"
+	            android:textColor="#FFFE5A00" />
+		</LinearLayout>
+		
+		<!-- 选栋布局 -->
+		<HorizontalScrollView
+		    android:layout_width="fill_parent"
+		    android:layout_height="64dip"
+		    android:gravity="center_vertical"
+		    android:scrollbars="none" >
+		    
+			<LinearLayout 
+			    android:id="@+id/activity_room_select_house_ll"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+	        	android:layout_marginTop="8dip"
+	        	android:layout_marginBottom="6dip"
+	        	android:layout_marginLeft="4dip"
+	        	android:gravity="center_vertical"
+			    android:orientation="horizontal" >
+	
+				<Button
+				    android:id="@+id/activity_room_house_bottom_1"
+				    android:layout_width="105dip"
+				    android:layout_height="40dip"
+				    android:layout_marginLeft="4dip"
+				    android:layout_marginRight="4dip"
+				    android:layout_gravity="center_vertical"
+				    android:background="@drawable/view_house_button_bg"
+				    android:text="1栋"
+	                android:textColor="@drawable/button_house_font"
+	                android:textSize="22sp"  />
+	
+			</LinearLayout>
+		</HorizontalScrollView>
+		
+		<!-- 图例注释 -->
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+		    <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dip"
+		        android:text="▇▇  已售完"
+		        android:textColor="#ffDBDBDB"
+		        android:textSize="12sp"/>
+		    <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dip"
+		        android:text="▇▇  可预订"
+		        android:textColor="#ffFE5900"
+		        android:textSize="12sp"/>
+		</LinearLayout>
+		
+		<!-- 屋顶 -->
+		<ImageView
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="10dip"
+		    android:src="@drawable/room_roof_bg" />
+		
+		<!-- 选房布局 -->
+		<LinearLayout
+		    android:id="@+id/house_select"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:gravity="center" >
+		    <com.xiaoqf.customview.RoomSelectorView
+		        android:id="@+id/activity_house_rsview"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content" />
+		</LinearLayout>
+		
+		<View 
+	        android:layout_width="fill_parent"
+	        android:layout_height="0.5dip"
+	        android:background="#dfdfdf"/>
+		
+		</LinearLayout>
+	</ScrollView>
+		
+		<!-- 选中的房价 -->
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical" >
+		    
+		    <LinearLayout 
+		        android:id="@+id/activity_house_select_ll_house"
+		        android:layout_width="wrap_content"
+		        android:layout_height="50dip"
+		        android:layout_gravity="center"
+		        android:orientation="horizontal"
+		        android:gravity="center" 
+		        android:visibility="visible">
+				
+		        <TextView 
+		            android:id="@+id/activity_house_select_tv_room_price_name"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center"
+		            android:gravity="center"
+		            android:text="请先选择房间"
+		            android:textColor="@color/black"
+		            android:textSize="18sp" />
+		        
+		        <TextView 
+		            android:id="@+id/activity_house_select_tv_room_price"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center"
+		            android:gravity="center"
+		            android:textColor="@color/button_orange"
+		            android:textSize="24sp" />"
+		    </LinearLayout>
+		    
+		    <!-- 获取底价 -->
+		    <RelativeLayout 
+		        android:id="@+id/activity_room_select_get_price_rl_button"
+		        android:layout_width="fill_parent"
+		        android:layout_height="60dip"
+		        android:layout_marginLeft="10dip"
+		        android:layout_marginRight="10dip"
+		        android:layout_marginBottom="10dip"
+		        android:background="@drawable/view_bottom_button_bg_orange" >
+		        
+		        <TextView
+		            android:id="@+id/activity_house_select_tv_button_get_price"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:layout_centerHorizontal="true"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="10dip"
+					android:singleLine="true"
+					android:text="获取底价"
+					android:textColor="@color/white"
+					android:textSize="18sp" />
+		    </RelativeLayout>
+		</LinearLayout>
+		
+		<LinearLayout 
+		        android:id="@+id/activity_house_select_layout_none"
+		        android:layout_width="wrap_content"
+		        android:layout_height="70dip"
+		        android:layout_marginBottom="20dip"
+		        android:visibility="gone"
+		        android:orientation="horizontal">
+		        
+		        <ImageView 
+		            android:layout_width="32dip"
+		            android:layout_height="32dip"
+		            android:layout_marginLeft="10dip"
+		            android:layout_gravity="bottom"
+		            android:src="@drawable/room_normal"/>
+		        
+		        <TextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dip"
+		            android:layout_marginBottom="4dip"
+		            android:text="可选房号"
+		            android:layout_gravity="bottom"
+		            android:textColor="@color/room_select_infor"
+		            android:textSize="12sp" />
+		        
+		        <ImageView 
+		            android:layout_width="32dip"
+		            android:layout_height="32dip"
+		            android:layout_gravity="bottom"
+		            android:layout_marginLeft="10dip"
+		            android:src="@drawable/room_sold"/>
+		        
+		        <TextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dip"
+		            android:layout_marginBottom="4dip"
+		            android:text="已售出"
+		            android:layout_gravity="bottom"
+		            android:textColor="@color/room_select_infor"
+		            android:textSize="12sp" />"
+		            
+		        <ImageView 
+		            android:layout_width="32dip"
+		            android:layout_height="32dip"
+		            android:layout_marginLeft="10dip"
+		            android:layout_gravity="bottom"
+		            android:src="@drawable/room_none"/>
+		        
+		        <TextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dip"
+		            android:layout_gravity="bottom"
+		            android:layout_marginBottom="4dip"
+		            android:text="无"
+		            android:textColor="@color/room_select_infor"
+		            android:textSize="12sp" />"
+		            	           
+		    </LinearLayout>
+		    
+		    
+		    
+	
+</LinearLayout>

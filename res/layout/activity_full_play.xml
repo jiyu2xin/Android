@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@color/activity_bg_gray"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_head" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#fafafa"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_marginTop="10dip"
+            android:background="@color/separator" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white" >
+
+            <ImageView
+                android:id="@+id/comfirm_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dip"
+                android:layout_marginTop="30dip"
+                android:src="@drawable/book_payed" />
+
+            <TextView
+                android:id="@+id/comfirm_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginTop="45dip"
+                android:layout_toRightOf="@id/comfirm_iv"
+                android:text="感谢您付款购买"
+                android:textColor="@color/global_title_color"
+                android:textSize="@dimen/global_title_text_size" />
+
+            <TextView
+                android:id="@+id/comfirm_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/comfirm_tv"
+                android:layout_marginLeft="15dip"
+                android:layout_marginTop="10dip"
+                android:layout_toRightOf="@id/comfirm_iv"
+                android:text="我们小Q购房车将竭诚为您服务"
+                android:textColor="#bababa"
+                android:textSize="12sp" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="fill_parent"
+                android:layout_height="30dip"
+                android:layout_below="@id/comfirm_tv1"
+                android:background="@color/white" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginTop="10dip"
+                android:layout_below="@id/view"
+                android:background="@color/separator" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_about_contact_ll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dip"
+            android:layout_marginBottom="16dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/view_bottom_button_bg"
+            android:gravity="bottom"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="拨打小Q购房车电话"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

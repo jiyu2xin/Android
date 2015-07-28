@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top_relative"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/global_title_height">
+
+       <!--  android:layout_marginRight="@dimen/global_title_marginRight" -->
+        <ImageView
+            android:id="@+id/iv_title_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:src="@drawable/ic_back" />
+         
+         <TextView 
+            android:id="@+id/tv_title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:text="注册"
+            android:textColor="#fac10b"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+         <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/global_title_color"
+            android:textSize="@dimen/global_title_text_size"
+            android:singleLine="true"
+            android:ellipsize="middle" />
+         
+<!--             android:layout_toRightOf="@id/iv_title_left"
+            android:layout_toLeftOf="@id/tv_title_right" -->
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/separator" />
+
+</LinearLayout>

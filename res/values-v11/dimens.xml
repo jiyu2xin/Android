@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- home_activity 相关 -->
+    <dimen name="tab_vertical_margin">55dp</dimen>
+    <dimen name="tab_text_size">26dp</dimen>
+    <dimen name="home_activity_title_height">50dp</dimen>
+    <dimen name="bg_height">150dp</dimen>
+    
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="global_title_text_size">18sp</dimen>
+    <dimen name="global_title_button_text_size">18sp</dimen>
+    <dimen name="global_title_height">50dp</dimen>
+    <dimen name="global_content_margin_left">27.5dp</dimen>
+    <dimen name="global_content_margin_right">27.5dp</dimen>
+    <dimen name="global_content_margin_top">10dp</dimen>
+    <dimen name="global_content_title_size">20dp</dimen>
+    <dimen name="global_content_text_size">18sp</dimen>
+    <dimen name="global_content_split_padding_top">5dp</dimen>
+    <dimen name="global_content_split_padding_bottom">5dp</dimen>
+    <dimen name="global_view_margin_left">11.5dp</dimen>
+    <dimen name="publish_remark_text_size">12.0sp</dimen>
+    <dimen name="home_ib_margin_top_1">30dp</dimen>
+    <dimen name="home_ib_margin_top_2">20dp</dimen>
+    <dimen name="home_btn_margin_top_1">30dp</dimen>
+    <dimen name="home_btn_margin_top_2">15dp</dimen>
+    
+    <dimen name="queryprice_listview_item_size">14.0sp</dimen>
+    <dimen name="queryprice_title_height">50dp</dimen>
+    <dimen name="queryprice_listview_title_height">42dp</dimen>
+    <dimen name="queryprice_listview_height">211dp</dimen>
+    <dimen name="queryprice_listview_item_height">40dp</dimen>
+</resources>

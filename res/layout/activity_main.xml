@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0"
+            android:visibility="gone" />
+
+        <View android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/white"/>
+        
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+		    <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="@color/separator" />
+		    
+            <RadioGroup
+                android:id="@+id/main_tab_group"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab_vertical_margin"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/main_tab_home"
+                    style="@style/MMTabButton"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/tabhost_tabspec_home"
+                    android:text="@string/main_home"
+                    android:textColor="@color/global_main_color" />
+
+                <RadioButton
+                    android:id="@+id/main_tab_like"
+                    style="@style/MMTabButton"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/tabhost_tabspec_like"
+                    android:text="@string/tab_like" 
+                    android:textColor="@color/tabtext_color"/>
+                
+                <RadioButton
+                    android:id="@+id/main_tab_call"
+                    style="@style/MMTabButton"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/tabhost_tabspec_call"
+                    android:text="@string/tab_call"
+                    android:textColor="@color/tabtext_color" />
+
+                <RadioButton
+                    android:id="@+id/main_tab_mine"
+                    style="@style/MMTabButton"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/tabhost_tabspec_mine"
+                    android:text="@string/tab_mine"
+                    android:textColor="@color/tabtext_color" />
+            </RadioGroup>
+        </FrameLayout>
+    </LinearLayout>
+
+</TabHost>

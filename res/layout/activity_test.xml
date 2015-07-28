@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/activity_head"/>
+    
+    <!-- 缩略图视图 -->
+    <!-- <com.xiaoqfang.customview.RoomSelectorThumbView 
+        android:id="@+id/mRSThumbView"
+        android:layout_width="@dimen/rs_room_thumb_size_w"
+        android:layout_height="@dimen/rs_room_thumb_size_h"
+                android:layout_marginBottom="5.0dip"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginTop="5.0dip" /> -->
+    
+    <com.xiaoqf.customview.RoomSelectorView
+        android:id="@+id/mRSView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>

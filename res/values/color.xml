@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name ="global_main_color">#ffff5a00</color>
+	<color name ="tabtext_color">#838B83</color> <!-- #eeeeee -->
+	<color name="global_title_color">#272727</color>
+	<color name="sub_color">#e1e1e1</color>
+    <color name="yellow_color">#Fdbe01</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transwhite">#33FFFFFF</color>
+    <color name="bg_gray">#FFE3E3E7</color>
+    <color name="orange">#FFE84E0E</color>
+    <color name="transparent">#00000000</color>
+    <color name="lightblue">#FF007AA2</color>
+    <color name="lightorange">#FFACBA00</color>
+    <color name="red">#FFFF0000</color>
+    <color name="transparentdarkgray">#CC292929</color>
+    <color name="transparentgray">#CC666666</color>
+    <color name="yellow">#ff9933</color>
+    <color name="gray">#ff333333</color>
+    <color name="gray_new">#aa333333</color>
+    <color name="light_blue">#5CACEE</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="orange_red">#613030</color>
+    <color name="whiteGray">#ffC9CACB</color>
+    <color name="nomalGray">#838B83</color>
+    <color name="blue">#436EEE</color>
+    <color name="light_orange">#FFFCBA00</color>
+    <color name="coffee">#622f1b</color>
+    <color name="black">#000000</color>
+    <color name="commons_color">#FFCCCC</color>
+    <color name="title_color">#FF8C00</color>
+    <color name="title_color_new">#FFFFFF</color>
+    <color name="title_color_pressed">#FF7F00</color>
+    <color name="bule_overlay">#660D92DD</color>
+    <color name="list_item_background_unpressed">#fff3f3f3</color>
+    <color name="list_item_background_pressed">#ffebebeb</color>
+    <color name="bg_header_normal">#00000000</color>
+    <color name="bg_header_pressed">#ff6c07</color>
+    <color name="guidedialogbg">#AA000000</color>
+    <color name="sharedialogbg">#00000000</color>
+    <color name="paymentdialogbg">#50000000</color>
+    <color name="guidetest">#3300ffff</color>
+    <color name="buttons_background">#4c4c4c</color>
+    <color name="Detail_Info_text_background">#ed8103</color>
+    <color name="buttons_text_pressed">#F28b14</color>
+    <color name="polyline_gps">#aa00ff00</color>
+    <color name="polyline_default">#aaFF8C00</color>
+    <color name="polyline_default_points">#55FF8C00</color>
+    <color name="tuliu_color">#FE893A</color>
+    <color name="discover_background">#EFEFEF</color>
+    <color name="separator">#E0E0E0</color>
+    <color name="button_yellow">#FCBE00</color>
+    <color name="activity_bg_gray">#fafafa</color>
+    <color name="activity_item_text">#636363</color>
+    <color name="item_edittext">#e7e7e7</color>
+    <color name="side_button_bg">#e2e2e2</color>
+    <color name="yellow_thumb_border">#FFF4B800</color>
+    <color name="black_floor_index_bg">#B2CCCCCC</color>
+    <color name="gray_room_selector_bg">#f3f3f3</color>
+    <color name="gray_building_button_font">#FF989898</color>
+    <color name="gray_room_font">#737373</color>
+    <color name="gray_house_deselect_bg">#FFFFFFFF</color>
+    <color name="gray_house_deselect_font">#FF9A9A9A</color>
+    <color name="yellow_house_select_bg">#FFFCBE00</color>
+    <color name="white_house_select_font">#FFFFFFFF</color>
+    <color name="green_wechat">#ff2CD148</color>
+    <color name="yellow_book_button">#ffFF7510</color>
+    <color name="room_select_infor">#8c8b8b</color>
+    
+    <color name="navpage">#FFE1E8EB</color>
+    <color name="lightgrey">#ff888888</color>
+    <color name="button_orange">#ffFE5A00</color>
+    
+    <drawable name="white">#FFFFFFFF</drawable>
+    <drawable name="buttons_text_pressed">#F28b14</drawable>
+    
+    <color name="ordercolor">#474747</color> 
+    <color name="pricecolor">#ff5a00</color> 
+    <color name="prepricecolor">#b8b7b7</color> 
+    <color name="orangecolor">#ffe2a3</color> 
+
+</resources>

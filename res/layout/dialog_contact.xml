@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    android:id="@+id/activity_about_dialog_rl"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal" 
+    android:orientation="vertical" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:background="#ddC5C5C5"
+    >
+  
+    <LinearLayout 
+        android:gravity="center_horizontal" 
+        android:orientation="vertical" 
+        android:background="@drawable/view_item_bg" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_above="@+id/activity_about_contact_cancel_tv" >
+        
+        <TextView
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="20.0dip" 
+            android:layout_marginTop="10.0dip" 
+            android:layout_marginRight="20.0dip" 
+        	android:paddingTop="10dip"
+        	android:paddingBottom="10dip"
+        	android:gravity="center" 
+            android:text="400-8867 733"
+            android:textSize="24sp"
+            android:textColor="@color/black" />
+        
+        <View
+	        android:layout_width="match_parent"
+	        android:layout_height="0.5dp"
+	        android:background="@color/separator" />
+        
+        
+        <TextView
+            android:id="@+id/activity_about_contact_dial_tv" 
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="20.0dip" 
+            android:layout_marginRight="20.0dip"
+        	android:paddingTop="10dip"
+        	android:paddingBottom="10dip"
+        	android:gravity="center" 
+            android:text="拨打"
+            android:textSize="24sp"
+            android:textColor="@color/blue" />
+    </LinearLayout>
+    
+        
+        <TextView
+            android:id="@+id/activity_about_contact_cancel_tv" 
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="10.0dip" 
+            android:layout_marginTop="15.0dip" 
+            android:layout_marginRight="10.0dip" 
+            android:layout_marginBottom="15.0dip"
+        	android:layout_alignParentBottom="true"
+        	android:paddingTop="10dip"
+        	android:paddingBottom="10dip"
+        	android:gravity="center"
+            android:background="@drawable/view_item_bg"
+            android:text="取消"
+            android:textSize="24sp"
+            android:textColor="@color/red" />
+</RelativeLayout>

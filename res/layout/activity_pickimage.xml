@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@color/transparentgray">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:background="@color/transparentgray" >
+
+        <LinearLayout
+            android:id="@+id/firm_linearlayout"
+            android:layout_width="200dip"
+            android:layout_height="80dip"
+            android:orientation="vertical"
+            android:background="@drawable/shape_white" >
+
+            <TextView
+                android:id="@+id/popw_camera_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="打开相机拍照"
+                android:textColor="@color/bule_overlay"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/blue" />
+
+            <TextView
+                android:id="@+id/popw_pictures_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="从相册中选择"
+                android:textColor="@color/bule_overlay"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

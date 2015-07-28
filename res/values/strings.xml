@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">小Q购房</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_back">返回</string>
+    <string name="app_ok">确定</string>
+    <string name="app_cancel">取消</string>
+    <string name="app_continue">继续</string>
+    <string name="app_tip">提示</string>
+    <string name="app_send">发送</string>
+    <string name="app_set">设置</string>
+    <string name="app_save">保存</string>
+    <string name="app_delete">删除</string>
+    <string name="app_nextstep">下一步</string>
+    <string name="app_prevstep">上一步</string>
+    <string name="app_finish">完成</string>
+    <string name="app_find">查找</string>
+    <string name="app_edit">编辑</string>
+
+    <!-- tab name -->
+    <string name="main_home">首页</string>
+    <string name="tab_like">看中的房</string>
+    <string name="tab_call">小Q</string>
+    <string name="tab_mine">我的</string>
+
+    <!-- home_activity相关 -->
+    <string name="home_title">小Q购房</string>
+    <string name="message_num1">合计优惠总金额</string>
+    <string name="message1">平台已成交</string>
+    <string name="message_num2">2,466</string>
+    <string name="message2">合计优惠金额</string>
+    <string name="message_num3">万元</string>
+    <string name="message3">平均优惠金额</string>
+
+    <!-- myLikes_activity相关 -->
+    <string name="mylikes_title">看中的房</string>
+    <string name="image_text">没看中房</string>
+    <string name="call_button_text">拨打小Q客服电话</string>
+
+    <!-- PayActivity -->
+    <string name="unifiedorder_v3_wx">APP支付生成预支付订单</string>
+    <string name="pay__pre_by_wxap">生成APP微信支付参数</string>
+    <string name="pay_by_wxap">调起微信支付</string>
+    <string name="check_pay">检查微信版本是否支持支付</string>
+    <string name="input_reqkey">输入reqkey</string>
+    <string name="input_package_value">输入package value</string>
+    <string name="input_sign">输入sign</string>
+    <string name="getting_access_token">正在获取access token...</string>
+    <string name="get_access_token_succ">获取access token成功</string>
+    <string name="get_access_token_fail" formatted="false">获取access token失败，原因%s</string>
+    <string name="getting_prepayid">正在获取预支付订单...</string>
+    <string name="paying">支付中</string>
+    <string name="get_prepayid_succ">获取prepayid成功</string>
+    <string name="get_prepayid_fail" formatted="false">获取prepayid失败，原因%s</string>
+
+    <!-- WXPayEntryActivity -->
+    <string name="pay_result_tip">这个界面用于显示第三方app通过微信支付的结果</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+    <string name="send_to_wx_title">发送到微信</string>
+    <string name="get_from_wx_title">从微信接收</string>
+    <string name="show_from_wx_title">显示微信请求的消息</string>
+    <string name="pay_by_wx_title">通过微信支付</string>
+    <string name="prepay_id_wx_text">prepayid</string>
+    <string name="invoke_ip">invoke_ip</string>
+    <string name="prepay_id_value">wx20141126110244e3e4bc4e580111072793</string>
+    <string name="activity_login_comfim_text"><u>&lt;&lt;小Q购房服务协议>></u></string>
+    
+    <string name="xiaoq_buy_price">小Q购房价:</string>
+    <string name="xiaoq_buy_unit">万</string>
+    <string name="xiaoq_buy_unit2">元</string>
+    <string name="xiaoq_reduce_price">您已成功Q掉:</string>
+    <string name="xiaoq_reduce_price_tips1">(Q价金额直接抵扣房款，最高可省</string>
+    <string name="xiaoq_reduce_price_tips2">)</string>
+    <string name="xiaoq_reduce_price_tips3">小Q提醒:最低购买价</string>
+    <string name="xiaoq_reduce_price_tips4">元，赶快邀请朋友去砍价把！</string>
+    <string name="order_info">订单信息</string>
+    <string name="build_name">楼盘名称:</string>
+    <string name="build_address">楼盘地址:</string>
+    <string name="build_room">房间:</string>
+    <string name="build_area">面积:</string>
+    <string name="build_term">产权期限:</string>
+    <string name="build_type">类型:</string>
+    <string name="build_layout">户型:</string>
+    <string name="image_room">户型图</string>
+    <string name="deposit">购房定金</string>
+    <string name="prepay_tip1">预付到小Q</string>
+    <string name="prepay_tip2">支持随时退</string>
+    <string name="prepay_tip3">可抵预付款</string>
+    <string name="pay_money">支付定金</string>
+    <string name="button_cut">Q价</string>
+
+</resources>

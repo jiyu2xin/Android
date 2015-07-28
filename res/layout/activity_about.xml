@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/activity_bg_gray" >
+    
+    <include layout="@layout/activity_head"/>
+    
+    <ImageView
+        android:id="@+id/activity_about_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dip"
+        android:layout_marginBottom="50dip"
+        android:src="@drawable/about"
+        android:maxWidth="64dip" />
+    
+    <LinearLayout
+        android:id="@+id/activity_about_contact_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:orientation="vertical"
+        android:gravity="center"
+    	android:background="@drawable/view_bottom_button_bg" >
+    	
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dip"
+	        android:gravity="center"
+	        android:singleLine="true"
+	        android:text="联系我们"
+	        android:textColor="@color/white"
+	        android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

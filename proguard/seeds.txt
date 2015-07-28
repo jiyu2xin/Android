@@ -1,0 +1,113 @@
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+com.alipay.android.app.IAlixPay
+com.alipay.android.app.IAlixPay: java.lang.String Pay(java.lang.String)
+com.alipay.android.app.IAlixPay: java.lang.String test()
+com.alipay.android.app.IAlixPay: void registerCallback(com.alipay.android.app.IRemoteServiceCallback)
+com.alipay.android.app.IAlixPay: void unregisterCallback(com.alipay.android.app.IRemoteServiceCallback)
+com.alipay.android.app.IAlixPay: java.lang.String prePay(java.lang.String)
+com.alipay.android.app.IAlixPay$Stub
+com.alipay.android.app.IAlixPay$Stub: java.lang.String DESCRIPTOR
+com.alipay.android.app.IAlixPay$Stub: int TRANSACTION_Pay
+com.alipay.android.app.IAlixPay$Stub: int TRANSACTION_test
+com.alipay.android.app.IAlixPay$Stub: int TRANSACTION_registerCallback
+com.alipay.android.app.IAlixPay$Stub: int TRANSACTION_unregisterCallback
+com.alipay.android.app.IAlixPay$Stub: int TRANSACTION_prePay
+com.alipay.android.app.IAlixPay$Stub: IAlixPay$Stub()
+com.alipay.android.app.IAlixPay$Stub: com.alipay.android.app.IAlixPay asInterface(android.os.IBinder)
+com.alipay.android.app.IAlixPay$Stub: android.os.IBinder asBinder()
+com.alipay.android.app.IAlixPay$Stub: boolean onTransact(int,android.os.Parcel,android.os.Parcel,int)
+com.alipay.android.app.IRemoteServiceCallback
+com.alipay.android.app.IRemoteServiceCallback: void startActivity(java.lang.String,java.lang.String,int,android.os.Bundle)
+com.alipay.android.app.IRemoteServiceCallback: void payEnd(boolean,java.lang.String)
+com.alipay.android.app.IRemoteServiceCallback: boolean isHideLoadingScreen()
+com.alipay.android.app.IRemoteServiceCallback$Stub
+com.alipay.android.app.IRemoteServiceCallback$Stub: java.lang.String DESCRIPTOR
+com.alipay.android.app.IRemoteServiceCallback$Stub: int TRANSACTION_startActivity
+com.alipay.android.app.IRemoteServiceCallback$Stub: int TRANSACTION_payEnd
+com.alipay.android.app.IRemoteServiceCallback$Stub: int TRANSACTION_isHideLoadingScreen
+com.alipay.android.app.IRemoteServiceCallback$Stub: IRemoteServiceCallback$Stub()
+com.alipay.android.app.IRemoteServiceCallback$Stub: com.alipay.android.app.IRemoteServiceCallback asInterface(android.os.IBinder)
+com.alipay.android.app.IRemoteServiceCallback$Stub: android.os.IBinder asBinder()
+com.alipay.android.app.IRemoteServiceCallback$Stub: boolean onTransact(int,android.os.Parcel,android.os.Parcel,int)
+com.alipay.mobilesecuritysdk.MainHandler
+com.alipay.sdk.app.AuthTask
+com.alipay.sdk.app.AuthTask: AuthTask(android.app.Activity)
+com.alipay.sdk.app.AuthTask: java.lang.String auth(java.lang.String)
+com.alipay.sdk.app.H5PayActivity
+com.alipay.sdk.app.H5PayActivity: H5PayActivity()
+com.alipay.sdk.app.PayTask
+com.alipay.sdk.app.PayTask: PayTask(android.app.Activity)
+com.alipay.sdk.app.PayTask: java.lang.String pay(java.lang.String)
+com.alipay.sdk.app.PayTask: java.lang.String getVersion()
+com.alipay.sdk.app.PayTask: boolean checkAccountIfExist()
+com.alipay.sdk.auth.AuthActivity
+com.alipay.sdk.auth.AuthActivity: AuthActivity()
+com.xiaoqfang.common.MyProgressBar
+com.xiaoqfang.common.MyProgressBar: MyProgressBar(android.content.Context)
+com.xiaoqfang.common.MyProgressBar: MyProgressBar(android.content.Context,android.util.AttributeSet,int)
+com.xiaoqfang.common.MyProgressBar: MyProgressBar(android.content.Context,android.util.AttributeSet)
+com.xiaoqfang.customview.CustomListView
+com.xiaoqfang.customview.CustomListView: CustomListView(android.content.Context,android.util.AttributeSet,int)
+com.xiaoqfang.customview.CustomListView: CustomListView(android.content.Context,android.util.AttributeSet)
+com.xiaoqfang.customview.CustomListView: CustomListView(android.content.Context)
+com.xiaoqfang.customview.CustomOrderListView
+com.xiaoqfang.customview.CustomOrderListView: CustomOrderListView(android.content.Context,android.util.AttributeSet,int)
+com.xiaoqfang.customview.CustomOrderListView: CustomOrderListView(android.content.Context,android.util.AttributeSet)
+com.xiaoqfang.customview.CustomOrderListView: CustomOrderListView(android.content.Context)
+com.xiaoqfang.customview.CustomViewPager
+com.xiaoqfang.customview.CustomViewPager: CustomViewPager(android.content.Context,android.util.AttributeSet)
+com.xiaoqfang.customview.CustomViewPager: CustomViewPager(android.content.Context)
+com.xiaoqfang.customview.MagicTextView
+com.xiaoqfang.customview.MagicTextView: MagicTextView(android.content.Context)
+com.xiaoqfang.customview.MagicTextView: MagicTextView(android.content.Context,android.util.AttributeSet)
+com.xiaoqfang.customview.MagicTextView: MagicTextView(android.content.Context,android.util.AttributeSet,int)
+com.xiaoqfang.customview.RoomSelectorView
+com.xiaoqfang.customview.RoomSelectorView: RoomSelectorView(android.content.Context,android.util.AttributeSet)
+com.xiaoqfang.customview.RoomSelectorView: RoomSelectorView(android.content.Context,android.util.AttributeSet,int)
+com.xiaoqf.app.AboutActivity
+com.xiaoqf.app.AboutActivity: AboutActivity()
+com.xiaoqf.app.AgreementActivity
+com.xiaoqf.app.AgreementActivity: AgreementActivity()
+com.xiaoqf.app.BargainActivity
+com.xiaoqf.app.BargainActivity: BargainActivity()
+com.xiaoqf.app.BaseActivity: BaseActivity()
+com.xiaoqf.app.BookPayedActivity
+com.xiaoqf.app.BookPayedActivity: BookPayedActivity()
+com.xiaoqf.app.FeedbackActivity
+com.xiaoqf.app.FeedbackActivity: FeedbackActivity()
+com.xiaoqf.app.GuideView
+com.xiaoqf.app.GuideView: GuideView()
+com.xiaoqf.app.HomeActivity
+com.xiaoqf.app.HomeActivity: HomeActivity()
+com.xiaoqf.app.LoginActivity
+com.xiaoqf.app.LoginActivity: LoginActivity()
+com.xiaoqf.app.MainActivity
+com.xiaoqf.app.MainActivity: MainActivity()
+com.xiaoqf.app.MineActivity
+com.xiaoqf.app.MineActivity: MineActivity()
+com.xiaoqf.app.MyLikesActivity
+com.xiaoqf.app.MyLikesActivity: MyLikesActivity()
+com.xiaoqf.app.PasswordEditActivity
+com.xiaoqf.app.PasswordEditActivity: PasswordEditActivity()
+com.xiaoqf.app.PasswordFindActivity
+com.xiaoqf.app.PasswordFindActivity: PasswordFindActivity()
+com.xiaoqf.app.QCallActivity
+com.xiaoqf.app.QCallActivity: QCallActivity()
+com.xiaoqf.app.RegisterActivity
+com.xiaoqf.app.RegisterActivity: RegisterActivity()
+com.xiaoqf.app.RoomSelectActivity
+com.xiaoqf.app.RoomSelectActivity: RoomSelectActivity()
+com.xiaoqf.app.SettingsActivity
+com.xiaoqf.app.SettingsActivity: SettingsActivity()
+com.xiaoqf.app.UserInfoActivity
+com.xiaoqf.app.UserInfoActivity: UserInfoActivity()
+com.xiaoqf.app.WalletRecordActivity
+com.xiaoqf.app.WalletRecordActivity: WalletRecordActivity()
+com.xiaoqf.app.WeiXinShareActivity
+com.xiaoqf.app.WeiXinShareActivity: WeiXinShareActivity()
+com.xiaoqf.app.WelcomeActivity
+com.xiaoqf.app.WelcomeActivity: WelcomeActivity()
+com.xiaoqfang.wxapi.WXEntryActivity
+com.xiaoqfang.wxapi.WXEntryActivity: WXEntryActivity()
